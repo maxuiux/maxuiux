@@ -1,0 +1,2628 @@
+<!DOCTYPE html>
+
+<!--
+               ,,
+          ,@╣▒▒▒▒▒▒╣╗,
+         ╢▒▒▒▒```"╢▒▒▒@
+        ╢▒▒▒▒▒      ╨▒▒╣
+        ▒▒▒▒▒▒        ╙▒    ╓╥╥╖ ╥             ╥     ╓╖   ╥    ╥      ╥
+        ║▒▒▒▒▒   ]Ñ╖      ╓╢`   ╙▒   `╢╖,╥Ñ`  ]▒     ║[   ,    ▒     ]▒   ╙╣╖╓╣╜
+         ╙▒▒▒▒   ]▒▒╢╖    ║[     ▒    ,╢╣╣    ]▒     ║[   ▒    ▒     ]▒    ╓╢╣╖
+           ╙╝▒   ]▒╝╜      ╙ß╥╓╗Ñ▒   ╙╜   ╙`   ╙╣╗╖╥╣╜    ▒     ╢N╖╥@╜    ╨╜  `╝
+
+		https://maxuiux.github.io/maxuiux/ © 2019-2024 Maxuiux. Все права защищены.
+
+-->
+
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Maxuiux Портфолио</title>
+
+  <meta name="description" content="Привет! Я - опытный разработчик веб-сайтов, верстальщик и веб-дизайнер, специализирующийся на создании уникальных и функциональных онлайн-проектов. Мои навыки также включают в себя брендинг, создание логотипов и бренд-менеджмент. С удовольствием помогу воплотить ваши идеи в жизнь и создать привлекательный и успешный веб-проект, который будет отличаться своей оригинальностью и эффективностью.">
+  <meta name="keywords"
+    content="Портфолио, Portfolio, Максим, Max, Maxim, HTML-Верстальщик, Frontend, Фронтенд, Backend, Бэкенд, Full Stack, Разработчик, Developer, Веб, Веб-Разработчик, Веб-Дизайнер, Графический Дизайнер, Дизайнер, Специалист по Рекламе, Профессионал, Специалист, Создание Брендинга, Создание Логотипа, Торгового Знака, Торговой Марки, Логотип, Цвет, Бренд, Ребрендинг, Фирменный Дизайн, Фирменный Стиль, Качественно, Эффективно, Высокий Уровень, Надежно, Быстро, Технологии, HTML, CSS, SCSS, jQuery, JavaScript, WebPack, Gulp, GSAP, Tailwind CSS, Git, GitHub, GitLab, WordPress, 1C Bitrix, Figma, UX / UI Design, UX / UI Дизайн, UX, UI, ui, ux, Photoshop, SEO Продвижение, Поиск Решений, Использование ИИ, Ai, Идеи, Коммуникация, Профессионализм, Качество, Надежно, Под ключ, Разработка дизайна для приложения, Дизайн ОС">
+
+  <!-- <meta name="theme-color" content="#fff"> -->
+  <!-- <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> -->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/favicons/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="app.webmanifest">
+  
+  <!-- <link rel="icon" href="img/favicons/favicon.webp" type="image/webp">
+  <link rel="icon" href="img/favicons/favicon.png" type="image/png">
+  <link rel="icon" href="img/favicons/favicon.ico" type="image/x-icon"> -->
+  <!-- <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+  <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+  <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png"> -->
+
+  <link rel="stylesheet" href="css/main.min.css">
+
+
+</head>
+
+<body>
+
+    <header class="header container">
+
+    <div class="header__wrap">
+
+        <a href="/" class="header__logo" aria-label="Логотип © copyright maxuiux">
+            <svg>
+                <use xlink:href="img/sprites/multi.svg#logo-maxuiux"></use>
+            </svg>
+        </a>
+        <!-- /.header__logo -->
+        
+        <nav class="header__menu">
+            <ul class="header__menu-list">
+                <li class="header__menu-list-item btn-pressing">
+                    <a href="#about-me" class="header__menu-list-link btn my-button">
+                        <span>Обо мне</span>
+                    </a>
+                    <!-- /.header__menu-list-link -->
+                </li>
+                <!-- /.header__menu-list-item -->
+                <li class="header__menu-list-item btn-pressing">
+                    <a href="#skills" class="header__menu-list-link btn">
+                        <span>Навыки</span>
+                    </a>
+                    <!-- /.header__menu-list-link -->
+                </li>
+                <!-- /.header__menu-list-item -->
+                <li class="header__menu-list-item btn-pressing">
+                    <a href="#approach" class="header__menu-list-link btn">
+                        <span>Подход</span>
+                    </a>
+                    <!-- /.header__menu-list-link -->
+                </li>
+                <!-- /.header__menu-list-item -->
+                <li class="header__menu-list-item btn-pressing">
+                    <a href="#sites" class="header__menu-list-link btn">
+                        <span>Сайты</span>
+                    </a>
+                    <!-- /.header__menu-list-link -->
+                </li>
+                <!-- /.header__menu-list-item -->
+                <li class="header__menu-list-item btn-pressing">
+                    <a href="#quality" class="header__menu-list-link btn">
+                        <span>Качество</span>
+                    </a>
+                    <!-- /.header__menu-list-link -->
+                </li>
+                <!-- /.header__menu-list-item -->
+                <li class="header__menu-list-item btn-pressing">
+                    <a href="#design" class="header__menu-list-link btn">
+                        <span>Дизайн</span>
+                    </a>
+                    <!-- /.header__menu-list-link -->
+                </li>
+                <!-- /.header__menu-list-item -->
+                <li class="header__menu-list-item btn-pressing">
+                    <a href="#branding" class="header__menu-list-link btn">
+                        <span>Брендинг</span>
+                    </a>
+                    <!-- /.header__menu-list-link -->
+                </li>
+                <!-- /.header__menu-list-item -->
+                <li class="header__menu-list-item btn-pressing">
+                    <a href="#faq" class="header__menu-list-link btn">
+                        <span>ЧАВО</span>
+                    </a>
+                    <!-- /.header__menu-list-link -->
+                </li>
+                <!-- /.header__menu-list-item -->
+                
+                <li class="header__menu-list-item header__menu-list-item-sub">
+    <div class="header__menu-list-link btn">
+        <span>Страницы</span>
+        <svg>
+            <use xlink:href="img/sprites/multi.svg#icon-arrow-down"></use>
+        </svg>
+    </div>
+    <!-- /.header__menu-list-link -->
+    <div class="header-sub">
+        <div class="header-sub__menu">
+            <ul class="header-sub__menu-list">
+                <li class="header-sub__menu-list-item">
+                    <a href="portfolio" class="header-sub__menu-list-link btn">
+                        <svg class="icon-default">
+                            <use xlink:href="img/sprites/multi.svg#icon-backpack2"></use>
+                        </svg>
+                        <svg class="icon-fill">
+                            <use xlink:href="img/sprites/multi.svg#icon-backpack2-fill"></use>
+                        </svg>
+                        <span>
+                            Портфолио
+                        </span>
+                    </a>
+                    <!-- /.header-sub__menu-list-link -->
+                </li>
+                <!-- /.header-sub__menu-list-item -->
+                <li class="header-sub__menu-list-item">
+                    <a href="web" class="header-sub__menu-list-link btn">
+                        <svg>
+                            <use xlink:href="img/sprites/multi.svg#icon-window"></use>
+                        </svg>
+                        <span>
+                            Примеры Сайтов
+                        </span>
+                    </a>
+                    <!-- /.header-sub__menu-list-link -->
+                </li>
+                <!-- /.header-sub__menu-list-item -->
+                <li class="header-sub__menu-list-item">
+                    <a href="design" class="header-sub__menu-list-link btn">
+                        <svg class="icon-default">
+                            <use xlink:href="img/sprites/multi.svg#icon-palette"></use>
+                        </svg>
+                        <svg class="icon-fill">
+                            <use xlink:href="img/sprites/multi.svg#icon-palette-fill"></use>
+                        </svg>
+                        <span>
+                            Примеры Дизайна
+                        </span>
+                    </a>
+                    <!-- /.header-sub__menu-list-link -->
+                </li>
+                <!-- /.header-sub__menu-list-item -->
+                <li class="header-sub__menu-list-item">
+                    <a href="identities" class="header-sub__menu-list-link btn">
+                        <svg>
+                            <use xlink:href="img/sprites/multi.svg#icon-bounding-box-circles"></use>
+                        </svg>
+                        <span>
+                            Примеры Логотипов
+                        </span>
+                    </a>
+                    <!-- /.header-sub__menu-list-link -->
+                </li>
+                <!-- /.header-sub__menu-list-item -->
+                <li class="header-sub__menu-list-item">
+                    <a href="blog" class="header-sub__menu-list-link btn">
+                        <svg class="icon-default">
+                            <use xlink:href="img/sprites/multi.svg#icon-archive"></use>
+                        </svg>
+                        <svg class="icon-fill">
+                            <use xlink:href="img/sprites/multi.svg#icon-archive-fill"></use>
+                        </svg>
+                        <span>
+                            Блог
+                        </span>
+                    </a>
+                    <!-- /.header-sub__menu-list-link -->
+                </li>
+                <!-- /.header-sub__menu-list-item -->
+                <li class="header-sub__menu-list-item">
+                    <a href="support" class="header-sub__menu-list-link btn">
+                        <svg class="icon-default">
+                            <use xlink:href="img/sprites/multi.svg#icon-cup-hot"></use>
+                        </svg>
+                        <svg class="icon-fill">
+                            <use xlink:href="img/sprites/multi.svg#icon-cup-hot-fill"></use>
+                        </svg>
+                        <span>
+                            Поддержать
+                        </span>
+                    </a>
+                    <!-- /.header-sub__menu-list-link -->
+                </li>
+                <!-- /.header-sub__menu-list-item -->
+            </ul>
+            <!-- /.header-sub__menu-list -->
+        </div>
+        <!-- /.header-sub__menu -->
+    </div>
+    <!-- /.header-sub -->
+</li>
+<!-- /.header__menu-list-item -->
+            </ul>
+            <!-- /.header__menu-list -->
+        </nav>
+        <!-- /.header__menu -->
+
+        <div class="header__contact">
+            <div class="header__contact-blocks">
+                <a href="mailto:maxuiuxofficial@gmail.com" class="header__contact-block btn btn-pressing">
+                    <span class="header__contact-block-text">
+                        Почта
+                    </span>
+                    <!-- /.header__contact-block-text -->
+                    <div class="header__contact-block-icon">
+                        <svg>
+                            <use xlink:href="img/sprites/multi.svg#icon-envelope-fill"></use>
+                        </svg>
+                    </div>
+                    <!-- /.header__contact-block-icon -->
+                </a>
+                <!-- /.header__contact-block -->
+                <a href="https://t.me/maxuiux" class="header__contact-block btn btn-pressing">
+                    <span class="header__contact-block-text">
+                        Написать
+                    </span>
+                    <!-- /.header__contact-block-text -->
+                    <div class="header__contact-block-icon">
+                        <svg>
+                            <use xlink:href="img/sprites/multi.svg#icon-telegram"></use>
+                        </svg>
+                    </div>
+                    <!-- /.header__contact-block-icon -->
+                </a>
+                <!-- /.header__contact-block -->
+            </div>
+            <!-- /.header__contact-blocks -->
+        </div>
+        <!-- /.header__contact -->
+
+        <div class="header__nav">
+            <button class="header__nav-btn btn">
+                <svg>
+                    <use xlink:href="img/sprites/multi.svg#icon-three-dots"></use>
+                </svg>
+            </button>
+            <!-- /.header__nav-btn -->
+        </div>
+        <!-- /.header__nav -->
+
+    </div>
+    <!-- /.header__wrap -->
+
+</header>
+<!-- /.header -->
+
+<div class="sidebar" data-sidebar-active="false">
+
+    <div class="sidebar__wrap">
+
+        <div class="sidebar__menu">
+        
+            <ul class="sidebar__menu-list">
+                <li class="sidebar__menu-list-item">
+                    <a href="/" class="sidebar__menu-list-link btn">
+                        <svg class="icon-default">
+                            <use xlink:href="img/sprites/multi.svg#icon-house"></use>
+                        </svg>
+                        <svg class="icon-fill">
+                            <use xlink:href="img/sprites/multi.svg#icon-house-fill"></use>
+                        </svg>
+                        <span>
+                            Главная
+                        </span>
+                    </a>
+                    <!-- /.sidebar__menu-list-link -->
+                </li>
+                <!-- /.sidebar__menu-list-item -->
+                <li class="sidebar__menu-list-item">
+                    <a href="portfolio" class="sidebar__menu-list-link btn">
+                        <svg class="icon-default">
+                            <use xlink:href="img/sprites/multi.svg#icon-backpack2"></use>
+                        </svg>
+                        <svg class="icon-fill">
+                            <use xlink:href="img/sprites/multi.svg#icon-backpack2-fill"></use>
+                        </svg>
+                        <span>
+                            Портфолио
+                        </span>
+                    </a>
+                    <!-- /.sidebar__menu-list-link -->
+                </li>
+                <!-- /.sidebar__menu-list-item -->
+                <li class="sidebar__menu-list-item">
+                    <a href="web" class="sidebar__menu-list-link btn">
+                        <svg>
+                            <use xlink:href="img/sprites/multi.svg#icon-window"></use>
+                        </svg>
+                        <span>
+                            Примеры Сайтов
+                        </span>
+                    </a>
+                    <!-- /.sidebar__menu-list-link -->
+                </li>
+                <!-- /.sidebar__menu-list-item -->
+                <li class="sidebar__menu-list-item">
+                    <a href="design" class="sidebar__menu-list-link btn">
+                        <svg class="icon-default">
+                            <use xlink:href="img/sprites/multi.svg#icon-palette"></use>
+                        </svg>
+                        <svg class="icon-fill">
+                            <use xlink:href="img/sprites/multi.svg#icon-palette-fill"></use>
+                        </svg>
+                        <span>
+                            Примеры Дизайна
+                        </span>
+                    </a>
+                    <!-- /.sidebar__menu-list-link -->
+                </li>
+                <!-- /.sidebar__menu-list-item -->
+                <li class="sidebar__menu-list-item">
+                    <a href="identities" class="sidebar__menu-list-link btn">
+                        <svg>
+                            <use xlink:href="img/sprites/multi.svg#icon-bounding-box-circles"></use>
+                        </svg>
+                        <span>
+                            Примеры Логотипов
+                        </span>
+                    </a>
+                    <!-- /.sidebar__menu-list-link -->
+                </li>
+                <!-- /.sidebar__menu-list-item -->
+                <li class="sidebar__menu-list-item">
+                    <a href="blog" class="sidebar__menu-list-link btn">
+                        <svg class="icon-default">
+                            <use xlink:href="img/sprites/multi.svg#icon-archive"></use>
+                        </svg>
+                        <svg class="icon-fill">
+                            <use xlink:href="img/sprites/multi.svg#icon-archive-fill"></use>
+                        </svg>
+                        <span>
+                            Блог
+                        </span>
+                    </a>
+                    <!-- /.sidebar__menu-list-link -->
+                </li>
+                <!-- /.sidebar__menu-list-item -->
+                <li class="sidebar__menu-list-item">
+                    <a href="support" class="sidebar__menu-list-link btn">
+                        <svg class="icon-default">
+                            <use xlink:href="img/sprites/multi.svg#icon-cup-hot"></use>
+                        </svg>
+                        <svg class="icon-fill">
+                            <use xlink:href="img/sprites/multi.svg#icon-cup-hot-fill"></use>
+                        </svg>
+                        <span>
+                            Поддержать
+                        </span>
+                    </a>
+                    <!-- /.sidebar__menu-list-link -->
+                </li>
+                <!-- /.sidebar__menu-list-item -->
+            </ul>
+            <!-- /.sidebar__menu-list -->
+            
+            <div class="sidebar__menu-line">
+            </div>
+            <!-- /.sidebar__menu-line -->
+            
+            <ul class="sidebar__menu-list">
+                <li class="sidebar__menu-list-item">
+                    <a href="https://github.com/maxuiux" class="sidebar__menu-list-link btn">
+                        <svg>
+                            <use xlink:href="img/sprites/multi.svg#icon-github"></use>
+                        </svg>
+                        <span>
+                            GitHub
+                        </span>
+                    </a>
+                    <!-- /.sidebar__menu-list-link -->
+                </li>
+                <!-- /.sidebar__menu-list-item -->
+                <li class="sidebar__menu-list-item">
+                    <a href="https://codepen.io/maxuiux" class="sidebar__menu-list-link btn">
+                        <svg>
+                            <use xlink:href="img/sprites/multi.svg#icon-codepen"></use>
+                        </svg>
+                        <span>
+                            CodePen
+                        </span>
+                    </a>
+                    <!-- /.sidebar__menu-list-link -->
+                </li>
+                <!-- /.sidebar__menu-list-item -->
+                <li class="sidebar__menu-list-item">
+                    <a href="https://www.behance.net/maxuiux" class="sidebar__menu-list-link btn">
+                        <svg>
+                            <use xlink:href="img/sprites/multi.svg#icon-behance"></use>
+                        </svg>
+                        <span>
+                            Behance
+                        </span>
+                    </a>
+                    <!-- /.sidebar__menu-list-link -->
+                </li>
+                <!-- /.sidebar__menu-list-item -->
+            </ul>
+            <!-- /.sidebar__menu-list -->
+            
+            <div class="sidebar__menu-line">
+            </div>
+            <!-- /.sidebar__menu-line -->
+            
+            <ul class="sidebar__menu-list">
+                <li class="sidebar__menu-list-item">
+                    <a href="mailto:maxuiuxofficial@gmail.com" class="sidebar__menu-list-link btn">
+                        <svg>
+                            <use xlink:href="img/sprites/multi.svg#icon-envelope-fill"></use>
+                        </svg>
+                        <span>
+                            Почта
+                        </span>
+                    </a>
+                    <!-- /.sidebar__menu-list-link -->
+                </li>
+                <!-- /.sidebar__menu-list-item -->
+                <li class="sidebar__menu-list-item">
+                    <a href="https://t.me/maxuiux" class="sidebar__menu-list-link btn">
+                        <svg>
+                            <use xlink:href="img/sprites/multi.svg#icon-telegram"></use>
+                        </svg>
+                        <span>
+                            Написать
+                        </span>
+                    </a>
+                    <!-- /.sidebar__menu-list-link -->
+                </li>
+                <!-- /.sidebar__menu-list-item -->
+            </ul>
+            <!-- /.sidebar__menu-list -->
+        </div>
+        <!-- /.sidebar__menu -->
+
+    </div>
+    <!-- /.sidebar__wrap -->
+
+</div>
+<!-- /.sidebar -->
+
+    <main>
+        <section class="header-info section-padding-bottom" id="about-me">
+
+    <div class="header-info__wrap container-xl">
+        <div class="header-info__blocks">
+
+            <div class="header-info__block header-info__block--1">
+                <div class="header-info__block-wrap">
+                    <div class="header-info__block-img">
+                        <picture>
+                            <source srcset="img/header-info-block-img.webp" type="image/webp">
+                            <img src="img/header-info-block-img.png" alt="Максим Разработчик"
+                                width="274px" height="432px">
+                        </picture>
+                    </div>
+                    <!-- /.header-info__block-img -->
+                    <h1 class="header-info__block-title">
+                        Максим
+                    </h1>
+                    <!-- /.header-info__block-title -->
+                </div>
+                <!-- /.header-info__block-wrap -->
+            </div>
+            <!-- /.header-info__block header-info__block--1 -->
+            <div class="header-info__block header-info__block--2">
+                <div class="header-info__block-wrap">
+                    <h2 class="header-info__block-title">
+                        <!-- HTML - Верстальщик -->
+                        Разработчик
+                    </h2>
+                    <!-- /.header-info__block-title -->
+                </div>
+                <!-- /.header-info__block-wrap -->
+            </div>
+            <!-- /.header-info__block header-info__block--2 -->
+            <div class="header-info__block header-info__block--3">
+                <div class="header-info__block-wrap">
+                    <h3 class="header-info__block-title">
+                        Опыт 6 лет
+                    </h3>
+                    <!-- /.header-info__block-title -->
+                </div>
+                <!-- /.header-info__block-wrap -->
+            </div>
+            <!-- /.header-info__block header-info__block--3 -->
+            <a class="header-info__block header-info__block--4" href="https://codepen.io/maxuiux"
+                target="_blank" aria-label="Портфолио в СodePen">
+                <div class="header-info__block-wrap">
+                    <div class="header-info__block-icon">
+                        <svg>
+                            <use xlink:href="img/sprites/multi.svg#icon-codepen"></use>
+                        </svg>
+                    </div>
+                    <!-- /.header-info__block-icon -->
+                </div>
+                <!-- /.header-info__block-wrap -->
+            </a>
+            <!-- /.header-info__block header-info__block--4 -->
+            <a class="header-info__block header-info__block--5" href="https://www.behance.net/maxuiux"
+                target="_blank" aria-label="Портфолио в Behance">
+                <div class="header-info__block-wrap">
+                    <div class="header-info__block-icon">
+                        <svg>
+                            <use xlink:href="img/sprites/multi.svg#icon-behance"></use>
+                        </svg>
+                    </div>
+                    <!-- /.header-info__block-icon -->
+                </div>
+                <!-- /.header-info__block-wrap -->
+            </a>
+            <!-- /.header-info__block header-info__block--5 -->
+
+        </div>
+        <!-- /.header-info__blocks -->
+    </div>
+    <!-- /.header-info__wrap -->
+
+</section>
+<!-- /.header-info -->
+
+        <section class="animline ticker">
+
+    <div class="animline__wrap">
+
+        <div class="animline__blocks">
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-soft-star"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Качество
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-depth"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Высокий уровень
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-transparency"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Профессионально
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-shield"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Надежно
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-asterisk"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Под ключ
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-lightning"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Высокотехнологично
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-butterfly"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Эффективно
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+        </div>
+        <!-- /.animline__blocks -->
+
+    </div>
+    <!-- /.animline__wrap -->
+
+</section>
+<!-- /.animline -->
+
+        <section class="stack section-padding" id="skills">
+
+    <div class="stack__wrap container-xl">
+
+        <div class="stack__items">
+
+            <div class="stack__item">
+                <svg>
+                    <use xlink:href="img/sprites/multi.svg#icon-code"></use>
+                </svg>
+                <div class="stack__item-title">
+                    HTML / CSS
+                </div>
+            </div>
+            <!-- /.stack__item -->
+            
+            <div class="stack__item">
+                <svg>
+                    <use xlink:href="img/sprites/multi.svg#icon-javascript"></use>
+                </svg>
+                <div class="stack__item-title">
+                    JavaScript
+                </div>
+            </div>
+            <!-- /.stack__item -->
+            
+            <div class="stack__item">
+                <svg>
+                    <use xlink:href="img/sprites/multi.svg#icon-sass"></use>
+                </svg>
+                <div class="stack__item-title">
+                    SCSS / SASS
+                </div>
+            </div>
+            <!-- /.stack__item -->
+            
+            <div class="stack__item">
+                <svg>
+                    <use xlink:href="img/sprites/multi.svg#icon-webpack"></use>
+                </svg>
+                <div class="stack__item-title">
+                    WebPack
+                </div>
+            </div>
+            <!-- /.stack__item -->
+            
+            <div class="stack__item">
+                <svg>
+                    <use xlink:href="img/sprites/multi.svg#icon-gulp"></use>
+                </svg>
+                <div class="stack__item-title">
+                    Gulp
+                </div>
+            </div>
+            <!-- /.stack__item -->
+            
+            <div class="stack__item">
+                <svg>
+                    <use xlink:href="img/sprites/multi.svg#icon-gsap"></use>
+                </svg>
+                <div class="stack__item-title">
+                    GSAP
+                </div>
+            </div>
+            <!-- /.stack__item -->
+            
+            <div class="stack__item">
+                <svg>
+                    <use xlink:href="img/sprites/multi.svg#icon-tailwind"></use>
+                </svg>
+                <div class="stack__item-title">
+                    Tailwind CSS
+                </div>
+            </div>
+            <!-- /.stack__item -->
+            
+            <div class="stack__item">
+                <svg>
+                    <use xlink:href="img/sprites/multi.svg#icon-git"></use>
+                </svg>
+                <div class="stack__item-title">
+                    Git
+                </div>
+            </div>
+            <!-- /.stack__item -->
+            
+            <div class="stack__item">
+                <svg>
+                    <use xlink:href="img/sprites/multi.svg#icon-wordpress"></use>
+                </svg>
+                <div class="stack__item-title">
+                    WordPress
+                </div>
+            </div>
+            <!-- /.stack__item -->
+            
+            <div class="stack__item">
+                <svg>
+                    <use xlink:href="img/sprites/multi.svg#icon-figma"></use>
+                </svg>
+                <div class="stack__item-title">
+                    Figma
+                </div>
+            </div>
+            <!-- /.stack__item -->
+            
+            <div class="stack__item">
+                <svg>
+                    <use xlink:href="img/sprites/multi.svg#icon-ux"></use>
+                </svg>
+                <div class="stack__item-title">
+                    UX / UI Design
+                </div>
+            </div>
+            <!-- /.stack__item -->
+            
+            <div class="stack__item">
+                <svg>
+                    <use xlink:href="img/sprites/multi.svg#icon-photoshop"></use>
+                </svg>
+                <div class="stack__item-title">
+                    Photoshop
+                </div>
+            </div>
+            <!-- /.stack__item -->
+            
+            <div class="stack__item">
+                <svg>
+                    <use xlink:href="img/sprites/multi.svg#icon-geo-alt-fill"></use>
+                </svg>
+                <div class="stack__item-title">
+                    SEO Продвижение
+                </div>
+            </div>
+            <!-- /.stack__item -->
+
+            <div class="stack__item">
+                <svg>
+                    <use xlink:href="img/sprites/multi.svg#icon-google"></use>
+                </svg>
+                <div class="stack__item-title">
+                    Поиск Решений
+                </div>
+            </div>
+            <!-- /.stack__item -->
+            
+            <div class="stack__item">
+                <svg>
+                    <use xlink:href="img/sprites/multi.svg#icon-ai"></use>
+                </svg>
+                <div class="stack__item-title">
+                    Использование ИИ
+                </div>
+            </div>
+            <!-- /.stack__item -->
+            
+            <div class="stack__item">
+                <svg>
+                    <use xlink:href="img/sprites/multi.svg#icon-idea"></use>
+                </svg>
+                <div class="stack__item-title">
+                    Идеи
+                </div>
+            </div>
+            <!-- /.stack__item -->
+            
+            <div class="stack__item">
+                <svg>
+                    <use xlink:href="img/sprites/multi.svg#icon-handshake"></use>
+                </svg>
+                <div class="stack__item-title">
+                    Коммуникация
+                </div>
+            </div>
+            <!-- /.stack__item -->
+
+            <div class="stack__item">
+                <svg>
+                    <use xlink:href="img/sprites/multi.svg#icon-award"></use>
+                </svg>
+                <div class="stack__item-title">
+                    Профессионализм
+                </div>
+            </div>
+            <!-- /.stack__item -->
+            
+            <div class="stack__item">
+                <svg>
+                    <use xlink:href="img/sprites/multi.svg#icon-patch-check-fill"></use>
+                </svg>
+                <div class="stack__item-title">
+                    Качество
+                </div>
+            </div>
+            <!-- /.stack__item -->
+            
+            <div class="stack__item">
+                <svg>
+                    <use xlink:href="img/sprites/multi.svg#icon-shield-fill-check"></use>
+                </svg>
+                <div class="stack__item-title">
+                    Надежно
+                </div>
+            </div>
+            <!-- /.stack__item -->
+            
+            <div class="stack__item">
+                <svg>
+                    <use xlink:href="img/sprites/multi.svg#icon-key-fill"></use>
+                </svg>
+                <div class="stack__item-title">
+                    Под ключ
+                </div>
+            </div>
+            <!-- /.stack__item -->
+
+        </div>
+        <!-- /.stack__items -->
+
+    </div>
+    <!-- /.stack__wrap -->
+
+</section>
+<!-- /.stack -->
+        <section class="approach section-padding-bottom" id="approach">
+
+    <div class="approach__wrap container-xl">
+
+        <div class="approach-head">
+            <div class="approach-head__wrap">
+                <video class="approach-head__video" autoplay="" loop="" muted="">
+                    <source src="libs/video/approach-head-video-1920x1080.mp4" type="video/mp4">
+                    <source src="libs/video/approach-head-video-1920x1080.webm" type="video/webm" />
+                    <track kind="captions">
+                </video>
+                <!-- /.approach-head__video -->
+                <div class="approach-head__info">
+                    <p class="approach-head__info-wrap">
+                        Индивидуальный подход к каждому проекту
+                    </p>
+                    <!-- /.approach-head__info-wrap -->
+                </div>
+                <!-- /.approach-head__info -->
+            </div>
+            <!-- /.approach-head__wrap -->
+        </div>
+        <!-- /.approach-head -->
+
+        <div class="approach__blocks">
+
+            <div class="approach__block approach__block--1">
+                <div class="approach__block-wrap">
+                    <div class="approach__block-img">
+                        <picture>
+                            <source srcset="img/approach-block-img-1.webp" type="image/webp">
+                            <img src="img/approach-block-img-1.png" loading="lazy" alt="Верстка HTML, CSS, JS">
+                        </picture>
+                    </div>
+                    <!-- /.approach__block-img -->
+                    <h2 class="approach__block-title">
+                        Верстка HTML, CSS, JS
+                    </h2>
+                    <!-- /.approach__block-title -->
+                    <p class="approach__block-text">
+                        Профессиональная верстка от небольших лендингов до крупных корпоративных сайтов
+                    </p>
+                    <!-- /.approach__block-text -->
+                </div>
+                <!-- /.approach__block-wrap -->
+            </div>
+            <!-- /.approach__block approach__block--1 -->
+
+            <div class="approach__block approach__block--2">
+                <div class="approach__block-wrap">
+                    <div class="approach__block-img">
+                        <picture>
+                            <source srcset="img/approach-block-img-2.webp" type="image/webp">
+                            <img src="img/approach-block-img-2.png" loading="lazy" alt="UX / UI Дизайн">
+                        </picture>
+                    </div>
+                    <!-- /.approach__block-img -->
+                    <h2 class="approach__block-title">
+                        UX / UI Дизайн
+                    </h2>
+                    <!-- /.approach__block-title -->
+                    <p class="approach__block-text">
+                        Создание интуитивно понятных интерфейсов - для чего угодно, например, веб-дизайн, приложения,
+                        программы и другое
+                    </p>
+                    <!-- /.approach__block-text -->
+                </div>
+                <!-- /.approach-head__wrap -->
+            </div>
+            <!-- /.approach__block approach__block--2 -->
+
+            <div class="approach__block approach__block--3">
+                <div class="approach__block-wrap">
+                    <div class="approach__block-img">
+                        <picture>
+                            <source srcset="img/approach-block-img-3.webp" type="image/webp">
+                            <img src="img/approach-block-img-3.png" loading="lazy" alt="Брендинг">
+                        </picture>
+                    </div>
+                    <!-- /.approach__block-img -->
+                    <h2 class="approach__block-title">
+                        Брендинг
+                    </h2>
+                    <!-- /.approach__block-title -->
+                    <p class="approach__block-text">
+                        Профессиональное создание: от названия и логотипа до индивидуальных цветов и других элементов,
+                        которые выделяют его среди остальных.
+                    </p>
+                    <!-- /.approach__block-text -->
+                </div>
+                <!-- /.approach-head__wrap -->
+            </div>
+            <!-- /.approach__block approach__block--3 -->
+
+            <div class="approach__block approach__block--4">
+                <div class="approach__block-wrap">
+                    <div class="approach__block-img">
+                        <picture>
+                            <source srcset="img/approach-block-img-4.webp" type="image/webp">
+                            <img src="img/approach-block-img-4.png" loading="lazy" alt="Остальное">
+                        </picture>
+                    </div>
+                    <!-- /.approach__block-img -->
+                    <h2 class="approach__block-title">
+                        Остальное
+                    </h2>
+                    <!-- /.approach__block-title -->
+                    <p class="approach__block-text">
+                        IT-исполнения могут быть разнообразными: управление, создание, поддержка и множество других
+                        задач
+                    </p>
+                    <!-- /.approach__block-text -->
+                </div>
+                <!-- /.approach-head__wrap -->
+            </div>
+            <!-- /.approach__block approach__block--4 -->
+
+        </div>
+        <!-- /.approach__blocks -->
+
+    </div>
+    <!-- /.approach__wrap -->
+
+</section>
+<!-- /.approach -->
+
+        <section class="section-portfolio portfolio-site" id="sites">
+
+    <div class="section-portfolio__wrap container-xl">
+
+        <div class="section-portfolio__blocks">
+
+            <a href="portfolio/bureau-of-architecture" class="section-portfolio__block"
+                title="Архитектурное бюро Регины Зиминой">
+                <div class="section-portfolio__block-img">
+                    <picture>
+                        <source srcset="img/portfolio-site-block-img-1.avif" type="image/avif">
+                        <source srcset="img/portfolio-site-block-img-1.webp" type="image/webp">
+                        <img src="img/portfolio-site-block-img-1.jpg" loading="lazy"
+                            alt="Архитектурное бюро Регины Зиминой">
+                    </picture>
+                </div>
+                <!-- /.portfolio-site__block-img -->
+            </a>
+            <!-- /.portfolio-site__block -->
+
+            <a href="portfolio/bankruptcy-bureau-number-1" class="section-portfolio__block"
+                title="Банкротное Бюро №1">
+                <div class="section-portfolio__block-img">
+                    <picture>
+                        <source srcset="img/portfolio-site-block-img-6.avif" type="image/avif">
+                        <source srcset="img/portfolio-site-block-img-6.webp" type="image/webp">
+                        <img src="img/portfolio-site-block-img-6.jpg" loading="lazy"
+                            alt="Банкротное Бюро №1">
+                    </picture>
+                </div>
+                <!-- /.portfolio-site__block-img -->
+            </a>
+            <!-- /.portfolio-site__block -->
+
+            <a href="portfolio/papa-media" class="section-portfolio__block"
+                title="ПАПА МЕДИЯ">
+                <div class="section-portfolio__block-img">
+                    <picture>
+                        <source srcset="img/portfolio-site-block-img-9.avif" type="image/avif">
+                        <source srcset="img/portfolio-site-block-img-9.webp" type="image/webp">
+                        <img src="img/portfolio-site-block-img-9.jpg" loading="lazy"
+                            alt="ПАПА МЕДИЯ">
+                    </picture>
+                </div>
+                <!-- /.portfolio-site__block-img -->
+            </a>
+            <!-- /.portfolio-site__block -->
+
+            <a href="portfolio/yandex-go-scooter" class="section-portfolio__block"
+                title="Самокаты Яндекс Go - Тестовое задание">
+                <div class="section-portfolio__block-img">
+                    <picture>
+                        <source srcset="img/portfolio-site-block-img-4.avif" type="image/avif">
+                        <source srcset="img/portfolio-site-block-img-4.webp" type="image/webp">
+                        <img src="img/portfolio-site-block-img-4.jpg" loading="lazy"
+                            alt="Самокаты Яндекс Go - Тестовое задание">
+                    </picture>
+                </div>
+                <!-- /.portfolio-site__block-img -->
+            </a>
+            <!-- /.portfolio-site__block -->
+
+            <a href="portfolio/tesla-model-s-website" class="section-portfolio__block"
+                title="Сайт Tesla Model S">
+                <div class="section-portfolio__block-img">
+                    <picture>
+                        <source srcset="img/portfolio-site-block-img-17.avif" type="image/avif">
+                        <source srcset="img/portfolio-site-block-img-17.webp" type="image/webp">
+                        <img src="img/portfolio-site-block-img-17.jpg" loading="lazy"
+                            alt="Сайт Tesla Model S">
+                    </picture>
+                </div>
+                <!-- /.portfolio-site__block-img -->
+            </a>
+            <!-- /.portfolio-site__block -->
+
+            <a href="portfolio/mobile-application-website" class="section-portfolio__block"
+                title="Сайт мобильного приложения">
+                <div class="section-portfolio__block-img">
+                    <picture>
+                        <source srcset="img/portfolio-site-block-img-13.avif" type="image/avif">
+                        <source srcset="img/portfolio-site-block-img-13.webp" type="image/webp">
+                        <img src="img/portfolio-site-block-img-13.jpg" loading="lazy"
+                            alt="Сайт мобильного приложения">
+                    </picture>
+                </div>
+                <!-- /.portfolio-site__block-img -->
+            </a>
+            <!-- /.portfolio-site__block -->
+
+            <a href="portfolio/frontend-developer-portfolio" class="section-portfolio__block"
+                title="Портфолио фронтенд разработчика">
+                <div class="section-portfolio__block-img">
+                    <picture>
+                        <source srcset="img/portfolio-site-block-img-12.avif" type="image/avif">
+                        <source srcset="img/portfolio-site-block-img-12.webp" type="image/webp">
+                        <img src="img/portfolio-site-block-img-12.jpg" loading="lazy"
+                            alt="Портфолио фронтенд разработчика">
+                    </picture>
+                </div>
+                <!-- /.portfolio-site__block-img -->
+            </a>
+            <!-- /.portfolio-site__block -->
+
+            <a href="portfolio/gym-website" class="section-portfolio__block"
+                title="Сайт фитнес-клуба">
+                <div class="section-portfolio__block-img">
+                    <picture>
+                        <source srcset="img/portfolio-site-block-img-10.avif" type="image/avif">
+                        <source srcset="img/portfolio-site-block-img-10.webp" type="image/webp">
+                        <img src="img/portfolio-site-block-img-10.jpg" loading="lazy"
+                            alt="Сайт фитнес-клуба">
+                    </picture>
+                </div>
+                <!-- /.portfolio-site__block-img -->
+            </a>
+            <!-- /.portfolio-site__block -->
+
+            <a href="portfolio/digital-agency-website" class="section-portfolio__block"
+                title="Сайт диджитал агентства">
+                <div class="section-portfolio__block-img">
+                    <picture>
+                        <source srcset="img/portfolio-site-block-img-14.avif" type="image/avif">
+                        <source srcset="img/portfolio-site-block-img-14.webp" type="image/webp">
+                        <img src="img/portfolio-site-block-img-14.jpg" loading="lazy"
+                            alt="Сайт диджитал агентства">
+                    </picture>
+                </div>
+                <!-- /.portfolio-site__block-img -->
+            </a>
+            <!-- /.portfolio-site__block -->
+
+            <a href="portfolio/website-everything-for-nails" class="section-portfolio__block"
+                title="Сайт все для ногтей">
+                <div class="section-portfolio__block-img">
+                    <picture>
+                        <source srcset="img/portfolio-site-block-img-5.avif" type="image/avif">
+                        <source srcset="img/portfolio-site-block-img-5.webp" type="image/webp">
+                        <img src="img/portfolio-site-block-img-5.jpg" loading="lazy"
+                            alt="Сайт все для ногтей">
+                    </picture>
+                </div>
+                <!-- /.portfolio-site__block-img -->
+            </a>
+            <!-- /.portfolio-site__block -->
+
+            <a href="portfolio/plumbing-and-electrical-works" class="section-portfolio__block"
+                title="Сантехнические и электромонтажные работы">
+                <div class="section-portfolio__block-img">
+                    <picture>
+                        <source srcset="img/portfolio-site-block-img-7.avif" type="image/avif">
+                        <source srcset="img/portfolio-site-block-img-7.webp" type="image/webp">
+                        <img src="img/portfolio-site-block-img-7.jpg" loading="lazy"
+                            alt="Сантехнические и электромонтажные работы">
+                    </picture>
+                </div>
+                <!-- /.portfolio-site__block-img -->
+            </a>
+            <!-- /.portfolio-site__block -->
+
+        </div>
+        <!-- /.portfolio-site__blocks -->
+
+        <div class="section-portfolio__more">
+            <a href="web" class="section-portfolio__more-btn btn btn-pressing">
+                Посмотреть еще работы →
+            </a>
+            <!-- /.section-portfolio__more-btn -->
+        </div>
+        <!-- /.section-portfolio__more -->
+
+    </div>
+    <!-- /.portfolio-site__wrap -->
+
+</section>
+<!-- /.portfolio-site -->
+        <section class="contact section-padding">
+
+    <div class="contact__wrap container-xl">
+
+        <div class="contact__blocks">
+
+            <div class="contact__block">
+                <div class="contact__block-title">
+                    Интересно? 
+                </div>
+                <!-- /.contact__block-title -->
+                <picture>
+                    <source srcset="img/smile-grinning-cat.webp" type="image/webp">
+                    <img class="contact__block-img" loading="lazy" src="img/smile-grinning-cat.png" alt="Смайл улыбающегося кота">
+                </picture>
+            </div>
+            <!-- /.contact__block -->
+
+            <div class="contact__block">
+
+                <a href="mailto:maxuiuxofficial@gmail.com" class="contact__block-btn btn btn-pressing">
+                    <span>
+                        Почта
+                    </span>
+                    <svg>
+                        <use xlink:href="img/sprites/multi.svg#icon-envelope-fill"></use>
+                    </svg>
+                </a>
+                <!-- /.contact__block-btn -->
+                <a href="https://t.me/maxuiux" class="contact__block-btn btn btn-pressing">
+                    <span>
+                        Написать
+                    </span>
+                    <svg>
+                        <use xlink:href="img/sprites/multi.svg#icon-telegram"></use>
+                    </svg>
+                </a>
+                <!-- /.contact__block-btn -->
+
+            </div>
+            <!-- /.contact__block -->
+
+        </div>
+        <!-- /.contact__blocks -->
+
+    </div>
+    <!-- /.contact__wrap -->
+
+</section>
+<!-- /.contact -->
+
+        <section class="animline ticker-right">
+
+    <div class="animline__wrap">
+
+        <div class="animline__blocks">
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-soft-star"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Качество
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-depth"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Высокий уровень
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-transparency"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Профессионально
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-shield"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Надежно
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-asterisk"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Под ключ
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-lightning"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Высокотехнологично
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-butterfly"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Эффективно
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+        </div>
+        <!-- /.animline__blocks -->
+
+    </div>
+    <!-- /.animline__wrap -->
+
+</section>
+<!-- /.animline -->
+
+        <section class="video section-padding-top" id="quality">
+
+    <div class="video__wrap container-xl">
+
+        <video class="video__player" controls preload="auto" poster="img/video-promo-poster.webp">
+            <source src="libs/video/video-maxuiux-intro-3840×2160.mp4" type="video/mp4" />
+            <source src="libs/video/video-maxuiux-intro-3840×2160.webm" type="video/webm" />
+            <track kind="captions">
+        </video>
+        <!-- /.video__player -->
+
+    </div>
+    <!-- /.video__wrap -->
+
+</section>
+<!-- /.video -->
+        <section class="advantage section-padding-bottom">
+
+    <div class="advantage__wrap container-xl">
+
+        <div class="advantage__blocks">
+
+            <div class="advantage__block advantage__block--1">
+                <div class="advantage__block-num">
+                    <span>01</span>
+                    <span>1</span>
+                </div>
+                <!-- /.advantage__block-num -->
+                <div class="advantage__block-wrap">
+                    <h2 class="advantage__block-title">
+                        Качественно
+                    </h2>
+                    <!-- /.advantage__block-title -->
+                </div>
+                <!-- /.advantage__block-wrap -->
+            </div>
+            <!-- /.advantage__block advantage__block--1 -->
+
+            <div class="advantage__block advantage__block--2">
+                <div class="advantage__block-num">
+                    <span>02</span>
+                    <span>2</span>
+                </div>
+                <!-- /.advantage__block-num -->
+                <div class="advantage__block-wrap">
+                    <h2 class="advantage__block-title">
+                        Компетентно
+                    </h2>
+                    <!-- /.advantage__block-title -->
+                </div>
+                <!-- /.advantage__block-wrap -->
+            </div>
+            <!-- /.advantage__block advantage__block--2 -->
+
+            <div class="advantage__block advantage__block--3">
+                <div class="advantage__block-num">
+                    <span>03</span>
+                    <span>3</span>
+                </div>
+                <!-- /.advantage__block-num -->
+                <div class="advantage__block-wrap">
+                    <h2 class="advantage__block-title">
+                        Быстро
+                    </h2>
+                    <!-- /.advantage__block-title -->
+                </div>
+                <!-- /.advantage__block-wrap -->
+            </div>
+            <!-- /.advantage__block advantage__block--3 -->
+
+            <div class="advantage__block advantage__block--4">
+                <div class="advantage__block-num">
+                    <span>04</span>
+                    <span>4</span>
+                </div>
+                <!-- /.advantage__block-num -->
+                <div class="advantage__block-wrap">
+                    <h2 class="advantage__block-title">
+                        Надежно
+                    </h2>
+                    <!-- /.advantage__block-title -->
+                </div>
+                <!-- /.advantage__block-wrap -->
+            </div>
+            <!-- /.advantage__block advantage__block--4 -->
+
+        </div>
+        <!-- /.advantage__blocks -->
+
+    </div>
+    <!-- /.advantage__wrap -->
+
+</section>
+<!-- /.advantage -->
+
+        <section class="animline ticker">
+
+    <div class="animline__wrap">
+
+        <div class="animline__blocks">
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-soft-star"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Качество
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-depth"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Высокий уровень
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-transparency"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Профессионально
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-shield"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Надежно
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-asterisk"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Под ключ
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-lightning"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Высокотехнологично
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-butterfly"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Эффективно
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+        </div>
+        <!-- /.animline__blocks -->
+
+    </div>
+    <!-- /.animline__wrap -->
+
+</section>
+<!-- /.animline -->
+
+        <section class="design section-padding" id="design">
+
+    <div class="design__wrap container-xl">
+
+        <div class="design__blocks">
+
+            <div class="design__block design__block--1">
+                <div class="design__block-img">
+                    <picture>
+                        <source srcset="img/smile-sauropod.webp" type="image/webp">
+                        <img loading="lazy" src="img/smile-sauropod.png" alt="Современный">
+                    </picture>
+                </div>
+                <!-- /.design__block-img -->
+                <h2 class="design__block-subtitle">
+                    Современный
+                </h2>
+                <!-- /.design__block-subtitle -->
+            </div>
+            <!-- /.design__block design__block--1 -->
+
+            <div class="design__block design__block--2">
+                <div class="design__block-img">
+                    <picture>
+                        <source srcset="img/smile-tropical-fish.webp" type="image/webp">
+                        <img loading="lazy" src="img/smile-tropical-fish.png" alt="Интуитивный">
+                    </picture>
+                </div>
+                <!-- /.design__block-img -->
+                <h2 class="design__block-subtitle">
+                    Интуитивный
+                </h2>
+                <!-- /.design__block-subtitle -->
+            </div>
+            <!-- /.design__block design__block--2 -->
+
+            <div class="design__block design__block--3">
+                <div class="design__block-img">
+                    <picture>
+                        <source srcset="img/smile-baby-chick.webp" type="image/webp">
+                        <img loading="lazy" src="img/smile-baby-chick.png" alt="Простой">
+                    </picture>
+                </div>
+                <!-- /.design__block-img -->
+                <h2 class="design__block-subtitle">
+                    Простой
+                </h2>
+                <!-- /.design__block-subtitle -->
+            </div>
+            <!-- /.design__block design__block--3 -->
+            
+            <div class="design__block design__block--5">
+                <h1 class="design__block-title">
+                    Дизайн
+                </h1>
+                <!-- /.design__block-title -->
+            </div>
+            <!-- /.design__block -->
+
+            <div class="design__block design__block--4">
+                <div class="design__block-img">
+                    <picture>
+                        <source srcset="img/smile-high-voltage.webp" type="image/webp">
+                        <img loading="lazy" src="img/smile-high-voltage.png" alt="Конкурентный">
+                    </picture>
+                </div>
+                <!-- /.design__block-img -->
+                <h2 class="design__block-subtitle">
+                    Конкурентный
+                </h2>
+                <!-- /.design__block-subtitle -->
+            </div>
+            <!-- /.design__block design__block--4 -->
+
+        </div>
+        <!-- /.design__blocks -->
+
+    </div>
+    <!-- /.design__wrap -->
+
+</section>
+<!-- /.design -->
+        <section class="section-portfolio portfolio-design" id="branding">
+
+    <div class="section-portfolio__wrap container-xl">
+
+        <div class="section-portfolio__blocks">
+
+            <a href="portfolio/concept-os-mr" class="section-portfolio__block"
+                title="Концепт OS смешанной реальности MR">
+                <div class="section-portfolio__block-img">
+                    <picture>
+                        <source srcset="img/portfolio-design-block-img-1.avif" type="image/avif">
+                        <source srcset="img/portfolio-design-block-img-1.webp" type="image/webp">
+                        <img src="img/portfolio-design-block-img-1.jpg" loading="lazy"
+                            alt="Концепт OS смешанной реальности MR">
+                    </picture>
+                </div>
+                <!-- /.portfolio-site__block-img -->
+            </a>
+            <!-- /.portfolio-site__block -->
+
+            <a href="portfolio/logo-r3dev" class="section-portfolio__block"
+                title="Логотип R3Dev">
+                <div class="section-portfolio__block-img">
+                    <picture>
+                        <source srcset="img/portfolio-logo-block-img-2.avif" type="image/avif">
+                        <source srcset="img/portfolio-logo-block-img-2.webp" type="image/webp">
+                        <img src="img/portfolio-logo-block-img-2.jpg" loading="lazy"
+                            alt="Логотип R3Dev">
+                    </picture>
+                </div>
+                <!-- /.portfolio-site__block-img -->
+            </a>
+            <!-- /.portfolio-site__block -->
+
+            <a href="portfolio/logo-grodesk" class="section-portfolio__block"
+                title="Логотип Grodesk">
+                <div class="section-portfolio__block-img">
+                    <picture>
+                        <source srcset="img/portfolio-logo-block-img-3.avif" type="image/avif">
+                        <source srcset="img/portfolio-logo-block-img-3.webp" type="image/webp">
+                        <img src="img/portfolio-logo-block-img-3.jpg" loading="lazy"
+                            alt="Логотип Grodesk">
+                    </picture>
+                </div>
+                <!-- /.portfolio-site__block-img -->
+            </a>
+            <!-- /.portfolio-site__block -->
+
+            <a href="portfolio/full-screen-store" class="section-portfolio__block"
+                title="Полноэкранный слайдер магазин">
+                <div class="section-portfolio__block-img">
+                    <picture>
+                        <source srcset="img/portfolio-design-block-img-8.avif" type="image/avif">
+                        <source srcset="img/portfolio-design-block-img-8.webp" type="image/webp">
+                        <img src="img/portfolio-design-block-img-8.jpg" loading="lazy"
+                            alt="Полноэкранный слайдер магазин">
+                    </picture>
+                </div>
+                <!-- /.portfolio-site__block-img -->
+            </a>
+            <!-- /.portfolio-site__block -->
+
+            <a href="portfolio/full-screen-glamping-agenst" class="section-portfolio__block"
+                title="Полноэкранный сайт глэмпинг агенста">
+                <div class="section-portfolio__block-img">
+                    <picture>
+                        <source srcset="img/portfolio-design-block-img-7.avif" type="image/avif">
+                        <source srcset="img/portfolio-design-block-img-7.webp" type="image/webp">
+                        <img src="img/portfolio-design-block-img-7.jpg" loading="lazy"
+                            alt="Полноэкранный сайт глэмпинг агенста">
+                    </picture>
+                </div>
+                <!-- /.portfolio-site__block-img -->
+            </a>
+            <!-- /.portfolio-site__block -->
+
+            <a href="portfolio/full-screen-portfolio-creative" class="section-portfolio__block"
+                title="Полноэкранное портфолио творческое">
+                <div class="section-portfolio__block-img">
+                    <picture>
+                        <source srcset="img/portfolio-design-block-img-10.avif" type="image/avif">
+                        <source srcset="img/portfolio-design-block-img-10.webp" type="image/webp">
+                        <img src="img/portfolio-design-block-img-10.jpg" loading="lazy"
+                            alt="Полноэкранное портфолио творческое">
+                    </picture>
+                </div>
+                <!-- /.portfolio-site__block-img -->
+            </a>
+            <!-- /.portfolio-site__block -->
+
+            <a href="portfolio/landing-page-vr" class="section-portfolio__block"
+                title="Лендинг VR">
+                <div class="section-portfolio__block-img">
+                    <picture>
+                        <source srcset="img/portfolio-design-block-img-2.avif" type="image/avif">
+                        <source srcset="img/portfolio-design-block-img-2.webp" type="image/webp">
+                        <img src="img/portfolio-design-block-img-2.jpg" loading="lazy"
+                            alt="Лендинг VR">
+                    </picture>
+                </div>
+                <!-- /.portfolio-site__block-img -->
+            </a>
+            <!-- /.portfolio-site__block -->
+
+            <a href="portfolio/full-screen-agency-portfolio" class="section-portfolio__block"
+                title="Полноэкранное портфолио агентства">
+                <div class="section-portfolio__block-img">
+                    <picture>
+                        <source srcset="img/portfolio-design-block-img-9.avif" type="image/avif">
+                        <source srcset="img/portfolio-design-block-img-9.webp" type="image/webp">
+                        <img src="img/portfolio-design-block-img-9.jpg" loading="lazy"
+                            alt="Полноэкранное портфолио агентства">
+                    </picture>
+                </div>
+                <!-- /.portfolio-site__block-img -->
+            </a>
+            <!-- /.portfolio-site__block -->
+
+            <a href="portfolio/streaming-platform-concept" class="section-portfolio__block"
+                title="Стриминговая площадка дизайн концепт">
+                <div class="section-portfolio__block-img">
+                    <picture>
+                        <source srcset="img/portfolio-design-block-img-5.avif" type="image/avif">
+                        <source srcset="img/portfolio-design-block-img-5.webp" type="image/webp">
+                        <img src="img/portfolio-design-block-img-5.jpg" loading="lazy"
+                            alt="Стриминговая площадка дизайн концепт">
+                    </picture>
+                </div>
+                <!-- /.portfolio-site__block-img -->
+            </a>
+            <!-- /.portfolio-site__block -->
+
+            <a href="portfolio/ux-ui-design-cards-requests-for-technical-support" class="section-portfolio__block"
+                title="UX/UI Дизайн карточки заявки для техподдержки">
+                <div class="section-portfolio__block-img">
+                    <picture>
+                        <source srcset="img/portfolio-design-block-img-6.avif" type="image/avif">
+                        <source srcset="img/portfolio-design-block-img-6.webp" type="image/webp">
+                        <img src="img/portfolio-design-block-img-6.jpg" loading="lazy"
+                            alt="UX/UI Дизайн карточки заявки для техподдержки">
+                    </picture>
+                </div>
+                <!-- /.portfolio-site__block-img -->
+            </a>
+            <!-- /.portfolio-site__block -->
+
+        </div>
+        <!-- /.portfolio-site__blocks -->
+
+        <div class="section-portfolio__more">
+            <a href="design" class="section-portfolio__more-btn btn btn-pressing">
+                Посмотреть еще работы →
+            </a>
+            <!-- /.section-portfolio__more-btn -->
+        </div>
+        <!-- /.section-portfolio__more -->
+
+    </div>
+    <!-- /.portfolio-site__wrap -->
+
+</section>
+<!-- /.portfolio-site -->
+        <section class="contact section-padding">
+
+    <div class="contact__wrap container-xl">
+
+        <div class="contact__blocks">
+
+            <div class="contact__block">
+                <div class="contact__block-title">
+                    Интересно? 
+                </div>
+                <!-- /.contact__block-title -->
+                <picture>
+                    <source srcset="img/smile-face-with-sunglasses.webp" type="image/webp">
+                    <img class="contact__block-img" loading="lazy" src="img/smile-face-with-sunglasses.png" alt="Смайл лицо в солнцезащитных очках">
+                </picture>
+            </div>
+            <!-- /.contact__block -->
+
+            <div class="contact__block">
+
+                <a href="mailto:maxuiuxofficial@gmail.com" class="contact__block-btn btn btn-pressing">
+                    <span>
+                        Почта
+                    </span>
+                    <svg>
+                        <use xlink:href="img/sprites/multi.svg#icon-envelope-fill"></use>
+                    </svg>
+                </a>
+                <!-- /.contact__block-btn -->
+                <a href="https://t.me/maxuiux" class="contact__block-btn btn btn-pressing">
+                    <span>
+                        Написать
+                    </span>
+                    <svg>
+                        <use xlink:href="img/sprites/multi.svg#icon-telegram"></use>
+                    </svg>
+                </a>
+                <!-- /.contact__block-btn -->
+
+            </div>
+            <!-- /.contact__block -->
+
+        </div>
+        <!-- /.contact__blocks -->
+
+    </div>
+    <!-- /.contact__wrap -->
+
+</section>
+<!-- /.contact -->
+
+        <section class="animline ticker-right">
+
+    <div class="animline__wrap">
+
+        <div class="animline__blocks">
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-soft-star"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Качество
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-depth"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Высокий уровень
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-transparency"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Профессионально
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-shield"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Надежно
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-asterisk"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Под ключ
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-lightning"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Высокотехнологично
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-butterfly"></use>
+                    </svg>
+                </div>
+                <!-- /.animline__block-iocn -->
+                <div class="animline__block-text">
+                    Эффективно
+                </div>
+                <!-- /.animline__block-text -->
+            </div>
+            <!-- /.animline__block -->
+
+        </div>
+        <!-- /.animline__blocks -->
+
+    </div>
+    <!-- /.animline__wrap -->
+
+</section>
+<!-- /.animline -->
+
+        <section class="faq section-padding-top" id="faq">
+
+    <div class="faq__wrap container-xl">
+
+        <div class="faq__block">
+            <div class="faq__block-img">
+                <picture>
+                    <source srcset="img/smile-thinking-face.webp" type="image/webp">
+                    <img loading="lazy" src="img/smile-thinking-face.png" alt="Ответы на вопросы">
+                </picture>
+            </div>
+            <!-- /.faq__block-img -->
+        </div>
+        <!-- /.faq__block -->
+
+    </div>
+    <!-- /.faq__wrap -->
+
+</section>
+<!-- /.faq -->
+        <section class="accordion">
+
+    <div class="accordion__wrap container-xl">
+
+        <div class="accordion__items">
+
+            <div class="accordion__item">
+                <div class="accordion__item-head">
+                    <div class="accordion__item-head-title">
+                        Какие у вас профессиональные качества и что вы можете предложить?
+                    </div>
+                    <!-- /.accordion__item-head-title -->
+                    <div class="accordion__item-head-img">
+                        <picture>
+                            <source srcset="img/smile-man-student.webp" type="image/webp">
+                            <img loading="lazy" src="img/smile-man-student.png" alt="Смайл Студент">
+                        </picture>
+                    </div>
+                    <!-- /.accordion__item-head-img -->
+                </div>
+                <!-- /.accordion__item-head -->
+                <div class="accordion__item-text">
+                    Привет! Я - опытный разработчик веб-сайтов, верстальщик и веб-дизайнер, специализирующийся на
+                    создании уникальных и функциональных онлайн-проектов. Мои навыки также включают в себя брендинг,
+                    создание логотипов и бренд-менеджмент. С удовольствием помогу воплотить ваши идеи в жизнь и создать
+                    привлекательный и успешный веб-проект, который будет отличаться своей оригинальностью и
+                    эффективностью.
+                </div>
+                <!-- /.accordion__item-text -->
+            </div>
+            <!-- /.accordion__item -->
+
+            <div class="accordion__item">
+                <div class="accordion__item-head">
+                    <div class="accordion__item-head-title">
+                        Вы можете сверстать сайт для WordPress или 1С Bitrix?
+                    </div>
+                    <!-- /.accordion__item-head-title -->
+                    <div class="accordion__item-head-img">
+                        <picture>
+                            <source srcset="img/smile-man-technologist.webp" type="image/webp">
+                            <img loading="lazy" src="img/smile-man-technologist.png" alt="Смайл Работа">
+                        </picture>
+                    </div>
+                    <!-- /.accordion__item-head-img -->
+                </div>
+                <!-- /.accordion__item-head -->
+                <div class="accordion__item-text">
+                    Да, я могу сверстать сайт для WordPress или 1С Bitrix. Мой подход включает в себя создание валидной
+                    и адаптивной верстки, учитывая особенности систем управления WordPress и 1С Bitrix. При разработке
+                    сайта для WordPress я уделяю внимание использованию современных технологий и плагинов, чтобы
+                    обеспечить оптимальную производительность и функциональность. Когда дело доходит до 1С Bitrix, я
+                    учитываю специфику этой платформы, чтобы гарантировать совместимость и эффективную работу сайта. Моя
+                    цель - создать качественный продукт, который будет соответствовать вашим потребностям и ожиданиям,
+                    обеспечивая удобство использования и привлекательный дизайн.
+                </div>
+                <!-- /.accordion__item-text -->
+            </div>
+            <!-- /.accordion__item -->
+
+            <div class="accordion__item">
+                <div class="accordion__item-head">
+                    <div class="accordion__item-head-title">
+                        Что вы можете реализовать на сайте?
+                    </div>
+                    <!-- /.accordion__item-head-title -->
+                    <div class="accordion__item-head-img">
+                        <picture>
+                            <source srcset="img/smile-slightly-smiling-face.webp" type="image/webp">
+                            <img loading="lazy" src="img/smile-slightly-smiling-face.png" alt="Смайл Улыбка">
+                        </picture>
+                    </div>
+                    <!-- /.accordion__item-head-img -->
+                </div>
+                <!-- /.accordion__item-head -->
+                <div class="accordion__item-text">
+                    При разработке сайтов и лендингов я могу реализовать широкий спектр функциональности в зависимости
+                    от конкретных потребностей и целей проекта. Возможности включают в себя разработку различных
+                    дизайнов, интеграцию анимации, создание интерактивных элементов, оптимизацию загрузки страницы, а
+                    также верстку и фронтенд разработку. От выбора дизайна до внедрения сложных анимаций и
+                    функциональных элементов, я готов реализовать разнообразные задачи, такие как всплывающие меню,
+                    анимированные элементы и другие инновационные решения для улучшения пользовательского опыта и
+                    эффективности сайта. Каждый проект уникален, и я готов адаптировать функционал и дизайн в
+                    соответствии с требованиями и целями вашего бизнеса, обеспечивая высокое качество и профессиональный
+                    подход к разработке.
+                </div>
+                <!-- /.accordion__item-text -->
+            </div>
+            <!-- /.accordion__item -->
+
+            <div class="accordion__item">
+                <div class="accordion__item-head">
+                    <div class="accordion__item-head-title">
+                        Вы делаете адаптив сайта для мобильных устройств?
+                    </div>
+                    <!-- /.accordion__item-head-title -->
+                    <div class="accordion__item-head-img">
+                        <picture>
+                            <source srcset="img/smile-selfie.webp" type="image/webp">
+                            <img loading="lazy" src="img/smile-selfie.png" alt="Смайл Смартфон">
+                        </picture>
+                    </div>
+                    <!-- /.accordion__item-head-img -->
+                </div>
+                <!-- /.accordion__item-head -->
+                <div class="accordion__item-text">
+                    Да, я разрабатываю адаптивный дизайн для сайтов, учитывая стандарты и разнообразие устройств.
+                    Понимая значительный процент посещаемости сайтов с мобильных устройств, моя работа направлена на
+                    обеспечение оптимального пользовательского опыта независимо от устройства, с которого происходит
+                    доступ к сайту. Адаптивный дизайн позволяет сайту автоматически подстраиваться под различные размеры
+                    экранов, обеспечивая удобство и функциональность как на смартфонах, так и на планшетах, что в свою
+                    очередь способствует увеличению удовлетворенности пользователей и повышению конверсии.
+                </div>
+                <!-- /.accordion__item-text -->
+            </div>
+            <!-- /.accordion__item -->
+
+            <div class="accordion__item">
+                <div class="accordion__item-head">
+                    <div class="accordion__item-head-title">
+                        Вы проводите СЕО оптимизацию сайта?
+                    </div>
+                    <!-- /.accordion__item-head-title -->
+                    <div class="accordion__item-head-img">
+                        <picture>
+                            <source srcset="img/smile-magic-wand.webp" type="image/webp">
+                            <img loading="lazy" src="img/smile-magic-wand.png" alt="Смайл Оптимизации">
+                        </picture>
+                    </div>
+                    <!-- /.accordion__item-head-img -->
+                </div>
+                <!-- /.accordion__item-head -->
+                <div class="accordion__item-text">
+                    Да, я обязательно провожу комплексную SEO-оптимизацию сайта на этапе его разработки. Учитываю все
+                    важные аспекты SEO, начиная с правильной структуры сайта, использования ключевых слов, оптимизации
+                    изображений и видео, настройки мета-тегов и других элементов. Уделяю особое внимание технической
+                    оптимизации, чтобы ваш сайт был быстрым, удобным для пользователей и хорошо индексировался
+                    поисковыми системами. Моя цель - обеспечить высокую видимость вашего сайта в поисковой выдаче и
+                    привлечь целевую аудиторию.
+                </div>
+                <!-- /.accordion__item-text -->
+            </div>
+            <!-- /.accordion__item -->
+
+            <div class="accordion__item">
+                <div class="accordion__item-head">
+                    <div class="accordion__item-head-title">
+                        Ваши сайты быстро работают?
+                    </div>
+                    <!-- /.accordion__item-head-title -->
+                    <div class="accordion__item-head-img">
+                        <picture>
+                            <source srcset="img/smile-rocket.webp" type="image/webp">
+                            <img loading="lazy" src="img/smile-rocket.png" alt="Смайл Космического Корабля">
+                        </picture>
+                    </div>
+                    <!-- /.accordion__item-head-img -->
+                </div>
+                <!-- /.accordion__item-head -->
+                <div class="accordion__item-text">
+                    При разработке сайтов и лендингов я уделяю особое внимание их производительности. Учитывая все
+                    необходимые аспекты еще на этапе разработки, я стремлюсь обеспечить быструю работу сайта и внедрить
+                    самые актуальные технологии для оптимизации. Эффективная оптимизация зависит от различных факторов,
+                    таких как выбор хостинга и системы управления. Хотя не всегда возможно контролировать все аспекты
+                    оптимизации, я всегда прилагаю максимум усилий, чтобы обеспечить быструю и эффективную работу сайта.
+                    Это критически важно для привлечения и удержания потенциальных клиентов вашего веб-проекта.
+                </div>
+                <!-- /.accordion__item-text -->
+            </div>
+            <!-- /.accordion__item -->
+
+            <div class="accordion__item">
+                <div class="accordion__item-head">
+                    <div class="accordion__item-head-title">
+                        Ваши навыки в дизайне, что можете предложить?
+                    </div>
+                    <!-- /.accordion__item-head-title -->
+                    <div class="accordion__item-head-img">
+                        <picture>
+                            <source srcset="img/smile-man-artist.webp" type="image/webp">
+                            <img loading="lazy" src="img/smile-man-artist.png" alt="Смайл Художника">
+                        </picture>
+                    </div>
+                    <!-- /.accordion__item-head-img -->
+                </div>
+                <!-- /.accordion__item-head -->
+                <div class="accordion__item-text">
+                    Я являюсь Специалистом по Рекламе, поэтому у меня очень широкий диапазон знаний в области дизайна. Я
+                    могу предложить услуги по фотографии, редактированию, созданию векторного дизайна, графическому
+                    дизайну, брендингу вашей компании, разработке логотипов, а также профессиональному созданию UX/UI
+                    дизайна сайтов и приложений. Мои знания и опыт охватывают все аспекты этого направления, включая
+                    правила и особенности данного направления. Однако, я не являюсь художником и не занимаюсь созданием
+                    арт-работ, так как
+                    это совершенно другое направление.
+                </div>
+                <!-- /.accordion__item-text -->
+            </div>
+            <!-- /.accordion__item -->
+
+            <div class="accordion__item">
+                <div class="accordion__item-head">
+                    <div class="accordion__item-head-title">
+                        Разрабатывайте ли вы веб-дизайн и дизайн приложений?
+                    </div>
+                    <!-- /.accordion__item-head-title -->
+                    <div class="accordion__item-head-img">
+                        <picture>
+                            <source srcset="img/smile-mobile-phone.webp" type="image/webp">
+                            <img loading="lazy" src="img/smile-mobile-phone.png" alt="Смайл Смартфона">
+                        </picture>
+                    </div>
+                    <!-- /.accordion__item-head-img -->
+                </div>
+                <!-- /.accordion__item-head -->
+                <div class="accordion__item-text">
+                    Да, я разрабатываю профессионально дизайн сайтов и приложений, учитывая мой опыт и знания в этой
+                    отрасли. Обладая полным пониманием UX/UI разработки дизайна, я стремлюсь создавать уникальные и
+                    функциональные веб-решения, которые не только эстетически привлекательны, но и обеспечивают лучший
+                    опыт использования для пользователей. Мой подход к дизайну основан на сочетании креативности,
+                    технической экспертизы и внимания к деталям, что позволяет мне создавать визуально привлекательные и
+                    интуитивно понятные интерфейсы. Буду рад помочь вам воплотить ваши идеи в жизнь и создать дизайн,
+                    который не только отражает вашу уникальность, но и способствует достижению ваших целей в
+                    онлайн-пространстве.
+                </div>
+                <!-- /.accordion__item-text -->
+            </div>
+            <!-- /.accordion__item -->
+
+            <div class="accordion__item">
+                <div class="accordion__item-head">
+                    <div class="accordion__item-head-title">
+                        Можно вносить изменения в готовый сайт или дизайн?
+                    </div>
+                    <!-- /.accordion__item-head-title -->
+                    <div class="accordion__item-head-img">
+                        <picture>
+                            <source srcset="img/smile-writing-hand.webp" type="image/webp">
+                            <img loading="lazy" src="img/smile-writing-hand.png" alt="Смайл Рукописи">
+                        </picture>
+                    </div>
+                    <!-- /.accordion__item-head-img -->
+                </div>
+                <!-- /.accordion__item-head -->
+                <div class="accordion__item-text">
+                    <p>
+                        Да, вы можете вносить изменения в готовый сайт или дизайн. Однако, важно учитывать
+                        договоренности,
+                        достигнутые в начале нашего сотрудничества. Мы можем производить изменения до тех пор, пока вас
+                        не
+                        устроит окончательный результат.
+                    </p>
+                    <p>
+                        Что касается дизайна, здесь есть некоторые особенности. Как специалист и профессионал, я создаю
+                        дизайн, в котором каждый элемент, цвет и логотип имеют свой смысл и значение. Поэтому правки
+                        могут
+                        нарушить целостность концепции дизайна и снизить его эффективность. Эти моменты мы обсудим
+                        индивидуально, чтобы найти оптимальное решение, которое будет устраивать нас обоих.
+                    </p>
+                    <p>
+                        Таким образом, вы можете вносить изменения в готовый сайт или дизайн, но важно учитывать наши
+                        договоренности. Мы будем работать вместе, чтобы достичь
+                        желаемого результата.
+                    </p>
+                </div>
+                <!-- /.accordion__item-text -->
+            </div>
+            <!-- /.accordion__item -->
+
+            <div class="accordion__item">
+                <div class="accordion__item-head">
+                    <div class="accordion__item-head-title">
+                        Можете брендировать компанию, создать брендбук?
+                    </div>
+                    <!-- /.accordion__item-head-title -->
+                    <div class="accordion__item-head-img">
+                        <picture>
+                            <source srcset="img/smile-face-with-sunglasses.webp" type="image/webp">
+                            <img loading="lazy" src="img/smile-face-with-sunglasses.png" alt="Смайл в Солнцезащитных Очках">
+                        </picture>
+                    </div>
+                    <!-- /.accordion__item-head-img -->
+                </div>
+                <!-- /.accordion__item-head -->
+                <div class="accordion__item-text">
+                    <p>
+                        Да, я могу профессионально заняться брендингом вашей компании или ребрендингом и переосмыслением
+                        уже
+                        существующего бренда. Это включает в себя разработку фирменного стиля, цветовой палитры и
+                        логотипа,
+                        учитывая современные тенденции и ваши пожелания, чтобы повысить конверсию и привлекательность
+                        вашего
+                        бренда.
+                    </p>
+                    <p>
+                        Что касается разработки полноценного брендбука, это более сложный и комплексный вопрос, который
+                        требует детальной проработки и согласования ваших требований. Брендбук - это свод правил и
+                        рекомендаций по использованию всех элементов фирменного стиля, от логотипа и цветовой гаммы до
+                        шрифтов и фирменных материалов. Его разработка - это отдельный проект, требующий предварительной
+                        договоренности и обсуждения ваших пожеланий.
+                    </p>
+                </div>
+                <!-- /.accordion__item-text -->
+            </div>
+            <!-- /.accordion__item -->
+
+            <div class="accordion__item">
+                <div class="accordion__item-head">
+                    <div class="accordion__item-head-title">
+                        Что закладывается в создание логотипа и фирменного стиля компании?
+                    </div>
+                    <!-- /.accordion__item-head-title -->
+                    <div class="accordion__item-head-img">
+                        <picture>
+                            <source srcset="img/smile-sparkles.webp" type="image/webp">
+                            <img loading="lazy" src="img/smile-sparkles.png" alt="Смайл Партиклов">
+                        </picture>
+                    </div>
+                    <!-- /.accordion__item-head-img -->
+                </div>
+                <!-- /.accordion__item-head -->
+                <div class="accordion__item-text">
+                    При создании логотипа и фирменного стиля компании важно учитывать множество аспектов. В процессе
+                    разработки учитываются не только правила дизайна и рекламы, но и принципы психологии, законы О
+                    Рекламе в РФ, а также соблюдение авторских прав. Кроме того, важно обеспечить индивидуальность и
+                    уникальность логотипа и фирменного стиля, учитывая при этом пожелания заказчика. Все эти аспекты в
+                    совокупности позволяют создать профессиональный и запоминающийся облик компании, который будет
+                    эффективно передавать ее ценности и узнаваемость среди целевой аудитории.
+                </div>
+                <!-- /.accordion__item-text -->
+            </div>
+            <!-- /.accordion__item -->
+
+            <div class="accordion__item">
+                <div class="accordion__item-head">
+                    <div class="accordion__item-head-title">
+                        Используйте нейронные сети в своих проектах?
+                    </div>
+                    <!-- /.accordion__item-head-title -->
+                    <div class="accordion__item-head-img">
+                        <picture>
+                            <source srcset="img/smile-robot.webp" type="image/webp">
+                            <img loading="lazy" src="img/smile-robot.png" alt="Смайл Робота">
+                        </picture>
+                    </div>
+                    <!-- /.accordion__item-head-img -->
+                </div>
+                <!-- /.accordion__item-head -->
+                <div class="accordion__item-text">
+                    <p>
+                        Нейронные сети стали неотъемлемой частью нашей жизни и работы. Они постоянно совершенствуются,
+                        становясь все более эффективными и точными в выполнении различных задач. Как специалист в сфере
+                        разработки сайтов и дизайн-брендинга, я активно использую нейронные сети в своей работе. Это
+                        профессиональные инструменты, созданные для профессионалов, которые помогают мне ускорять
+                        рабочие
+                        процессы и получать более качественные результаты.
+                    </p>
+                    <p>
+                        Например, я использую нейронные сети для быстрого и точного вырезания фотографий, что
+                        значительно
+                        экономит время по сравнению с ручной обработкой. Однако, когда дело доходит до редактирования
+                        фотографий, я предпочитаю делать это самостоятельно, так как это требует глубокого понимания
+                        нюансов
+                        и опыта работы в данной области.
+                    </p>
+                    <p>
+                        Кроме того, нейронные сети помогают мне находить необходимые инструменты и ресурсы гораздо
+                        быстрее.
+                        Вместо того, чтобы тратить часы на поиск в Google или Яндекс, я могу задать вопрос ChatGPT,
+                        который
+                        моментально предоставит мне ссылки на полезные ресурсы, а также дополнительные разъяснения и
+                        рекомендации.
+                    </p>
+                    <p>
+                        Использование нейронных сетей - это важная часть моей работы, которая наравне с другими навыками
+                        и
+                        знаниями позволяет мне предоставлять клиентам самые эффективные и качественные решения. Это
+                        экономит
+                        время и приносит наилучший результат, особенно в тех областях, где можно применять нейронные
+                        сети.
+                    </p>
+
+                </div>
+                <!-- /.accordion__item-text -->
+            </div>
+            <!-- /.accordion__item -->
+
+            <div class="accordion__item">
+                <div class="accordion__item-head">
+                    <div class="accordion__item-head-title">
+                        Почему именно вы должны работать над нашим проектом или в нашей компании?
+                    </div>
+                    <!-- /.accordion__item-head-title -->
+                    <div class="accordion__item-head-img">
+                        <picture>
+                            <source srcset="img/smile-green-heart.webp" type="image/webp">
+                            <img loading="lazy" src="img/smile-green-heart.png" alt="Смайл Зеленое Сердце">
+                        </picture>
+                    </div>
+                    <!-- /.accordion__item-head-img -->
+                </div>
+                <!-- /.accordion__item-head -->
+                <div class="accordion__item-text">
+                    <p>
+                        Я являюсь профессионалом в различных областях IT, я постоянно совершенствую свои знания. Мой
+                        пятый
+                        сайт-портфолио является ярким доказательством моих навыков в разработке сайтов, дизайне и
+                        брендинге.
+                        Готовность работать над интересными проектами и в компаниях с увлекательными задачами всегда
+                        присутствует у меня.
+                    </p>
+                    <p>
+                        Мои коммуникативные навыки и опыт работы как с клиентами, так и в команде делают меня
+                        ценным специалистом. Просмотр моего сайта, портфолио и ознакомление с моими работами позволят
+                        вам
+                        сформировать собственное впечатление обо мне и моем профессионализме. Поэтому я уверен, что могу
+                        быть ценным дополнением к вашему проекту или компании, обеспечивая качественное выполнение задач
+                        и
+                        достижение поставленных целей.
+                    </p>
+                </div>
+                <!-- /.accordion__item-text -->
+            </div>
+            <!-- /.accordion__item -->
+
+        </div>
+        <!-- /.accordion__items -->
+
+    </div>
+    <!-- /.accordion__wrap -->
+
+</section>
+<!-- /.accordion -->
+        <section class="contact section-padding">
+
+    <div class="contact__wrap container-xl">
+
+        <div class="contact__blocks">
+
+            <div class="contact__block">
+                <div class="contact__block-title">
+                    Интересно? 
+                </div>
+                <!-- /.contact__block-title -->
+                <picture>
+                    <source srcset="img/smile-alien.webp" type="image/webp">
+                    <img class="contact__block-img" loading="lazy" src="img/smile-alien.png" alt="Смайл инопланетянин">
+                </picture>
+            </div>
+            <!-- /.contact__block -->
+
+            <div class="contact__block">
+
+                <a href="mailto:maxuiuxofficial@gmail.com" class="contact__block-btn btn btn-pressing">
+                    <span>
+                        Почта
+                    </span>
+                    <svg>
+                        <use xlink:href="img/sprites/multi.svg#icon-envelope-fill"></use>
+                    </svg>
+                </a>
+                <!-- /.contact__block-btn -->
+                <a href="https://t.me/maxuiux" class="contact__block-btn btn btn-pressing">
+                    <span>
+                        Написать
+                    </span>
+                    <svg>
+                        <use xlink:href="img/sprites/multi.svg#icon-telegram"></use>
+                    </svg>
+                </a>
+                <!-- /.contact__block-btn -->
+
+            </div>
+            <!-- /.contact__block -->
+
+        </div>
+        <!-- /.contact__blocks -->
+
+    </div>
+    <!-- /.contact__wrap -->
+
+</section>
+<!-- /.contact -->
+
+    </main>
+
+    <button class="button-up btn-pressing" aria-label="Подняться на вверх">
+    <svg>
+        <use xlink:href="img/sprites/multi.svg#icon-arrow-up"></use>
+    </svg>
+</button>
+<!-- /.button-up -->
+
+<footer class="footer">
+
+    <div class="footer__wrap">
+
+        <div class="footer-menu">
+
+            <div class="footer-menu__items">
+
+                <div class="footer-menu__item">
+
+                    <div class="footer-menu__title">
+                        Основное
+                    </div>
+                    <!-- /.footer-menu__title -->
+                    <ul class="footer-menu__list">
+                        <li class="footer-menu__list-item">
+                            <a href="portfolio" class="footer-menu__list-link">
+                                Портфолио
+                            </a>
+                            <!-- /.footer-menu__list-link -->
+                        </li>
+                        <!-- /.footer-menu__list-item -->
+                        <li class="footer-menu__list-item">
+                            <a href="web" class="footer-menu__list-link">
+                                Примеры Сайтов
+                            </a>
+                            <!-- /.footer-menu__list-link -->
+                        </li>
+                        <!-- /.footer-menu__list-item -->
+                        <li class="footer-menu__list-item">
+                            <a href="design" class="footer-menu__list-link">
+                                Примеры Дизайна
+                            </a>
+                            <!-- /.footer-menu__list-link -->
+                        </li>
+                        <!-- /.footer-menu__list-item -->
+                        <li class="footer-menu__list-item">
+                            <a href="identities" class="footer-menu__list-link">
+                                Примеры Логотипов
+                            </a>
+                            <!-- /.footer-menu__list-link -->
+                        </li>
+                        <!-- /.footer-menu__list-item -->
+                        <li class="footer-menu__list-item">
+                            <a href="blog" class="footer-menu__list-link">
+                                Блог
+                            </a>
+                            <!-- /.footer-menu__list-link -->
+                        </li>
+                        <!-- /.footer-menu__list-item -->
+                        <li class="footer-menu__list-item">
+                            <a href="support" class="footer-menu__list-link">
+                                Поддержать
+                            </a>
+                            <!-- /.footer-menu__list-link -->
+                        </li>
+                        <!-- /.footer-menu__list-item -->
+                    </ul>
+                    <!-- /.footer-menu__list -->
+
+                </div>
+                <!-- /.footer-menu__item -->
+                
+                <div class="footer-menu__item">
+
+                    <div class="footer-menu__title">
+                        Сайт
+                    </div>
+                    <!-- /.footer-menu__title -->
+                    <ul class="footer-menu__list">
+                        <li class="footer-menu__list-item">
+                            <a href="sitemap" class="footer-menu__list-link">
+                                Карта сайта
+                            </a>
+                            <!-- /.footer-menu__list-link -->
+                        </li>
+                        <!-- /.footer-menu__list-item -->
+                    </ul>
+                    <!-- /.footer-menu__list -->
+
+                </div>
+                <!-- /.footer-menu__item -->
+
+            </div>
+            <!-- /.footer-menu__items -->
+
+        </div>
+        <!-- /.footer-menu -->
+
+        <div class="footer-info">
+
+            <div class="footer-info__items">
+
+                <div class="footer-info__item">
+                    <a href="/" class="footer-info__logo" aria-label="Логотип графический знак © copyright maxuiux">
+                        <svg>
+                            <use xlink:href="img/sprites/multi.svg#icon-maxuiux-mini"></use>
+                        </svg>
+                    </a>
+                    <!-- /.footer-info__logo -->
+                </div>
+                <!-- /.footer-info__item -->
+
+                <div class="footer-info__item">
+                    <div class="footer-info__copyright">
+                        © 2019-2024 Maxuiux. Все права защищены.
+                    </div>
+                    <!-- /.footer-info__copyright -->
+                </div>
+                <!-- /.footer-info__item -->
+
+                <div class="footer-info__item">
+                    <div class="footer-info__version">
+                        Версия сайта 0.0.1
+                    </div>
+                    <!-- /.footer-info__version -->
+                </div>
+                <!-- /.footer-info__item -->
+
+            </div>
+            <!-- /.footer-info__items -->
+
+        </div>
+        <!-- /.footer-info -->
+
+    </div>
+    <!-- /.footer__wrap -->
+
+</footer>
+<!-- /.footer -->
+
+    <script src="libs/gsap/ScrollTrigger.min.js"></script>
+    <script src="libs/gsap/gsap.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
