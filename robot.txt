@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maxuiux.github.io/maxuiux/sitemap.xml
