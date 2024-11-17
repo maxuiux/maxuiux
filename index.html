@@ -438,7 +438,7 @@
 <!-- /.sidebar -->
 
     <main>
-        <section class="header-info section-padding-bottom" id="about-me">
+        <section class="header-info section-padding-bottom scroll-margin-top-md" id="about-me">
 
     <div class="header-info__wrap container-xl">
         <div class="header-info__blocks">
@@ -475,7 +475,7 @@
             <div class="header-info__block header-info__block--3">
                 <div class="header-info__block-wrap">
                     <h3 class="header-info__block-title">
-                        Опыт 6 лет
+                        Опыт <span id="experience-year"></span> лет
                     </h3>
                     <!-- /.header-info__block-title -->
                 </div>
@@ -517,120 +517,156 @@
 </section>
 <!-- /.header-info -->
 
-        <section class="animline ticker">
-
-    <div class="animline__wrap">
-
-        <div class="animline__blocks">
-
+        <section class="animline" data-component="infinite-scroll">
+    <div class="animline__wrap animline-animation--left" data-element="infinite-scroll:animation" style="--direction: normal;">
+        <div class="animline__blocks" data-element="infinite-scroll:inner">
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-soft-star"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Качество
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-depth"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
+
                 <div class="animline__block-text">
                     Высокий уровень
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-transparency"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Профессионально
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-shield"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Надежно
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-asterisk"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Под ключ
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-lightning"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Высокотехнологично
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-butterfly"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Эффективно
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-soft-star"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Качество
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-depth"></use>
+                    </svg>
+                </div>
 
+                <div class="animline__block-text">
+                    Высокий уровень
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-transparency"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Профессионально
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-shield"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Надежно
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-asterisk"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Под ключ
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-lightning"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Высокотехнологично
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-butterfly"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Эффективно
+                </div>
+            </div>
         </div>
-        <!-- /.animline__blocks -->
-
     </div>
-    <!-- /.animline__wrap -->
-
 </section>
-<!-- /.animline -->
 
-        <section class="stack section-padding" id="skills">
+        <section class="stack section-padding scroll-margin-top-sm" id="skills">
 
     <div class="stack__wrap container-xl">
 
@@ -854,7 +890,7 @@
 
 </section>
 <!-- /.stack -->
-        <section class="approach section-padding-bottom" id="approach">
+        <section class="approach section-padding-bottom scroll-margin-top-md" id="approach">
 
     <div class="approach__wrap container-xl">
 
@@ -980,7 +1016,7 @@
 </section>
 <!-- /.approach -->
 
-        <section class="section-portfolio portfolio-site" id="sites">
+        <section class="section-portfolio portfolio-site scroll-margin-top-md" id="sites">
 
     <div class="section-portfolio__wrap container-xl">
 
@@ -1207,118 +1243,154 @@
 </section>
 <!-- /.contact -->
 
-        <section class="animline ticker-right">
-
-    <div class="animline__wrap">
-
-        <div class="animline__blocks">
-
+        <section class="animline" data-component="infinite-scroll">
+    <div class="animline__wrap animline-animation--right" data-element="infinite-scroll:animation" style="--direction: normal;">
+        <div class="animline__blocks" data-element="infinite-scroll:inner">
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-soft-star"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Качество
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-depth"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
+
                 <div class="animline__block-text">
                     Высокий уровень
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-transparency"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Профессионально
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-shield"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Надежно
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-asterisk"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Под ключ
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-lightning"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Высокотехнологично
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-butterfly"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Эффективно
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-soft-star"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Качество
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-depth"></use>
+                    </svg>
+                </div>
 
+                <div class="animline__block-text">
+                    Высокий уровень
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-transparency"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Профессионально
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-shield"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Надежно
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-asterisk"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Под ключ
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-lightning"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Высокотехнологично
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-butterfly"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Эффективно
+                </div>
+            </div>
         </div>
-        <!-- /.animline__blocks -->
-
     </div>
-    <!-- /.animline__wrap -->
-
 </section>
-<!-- /.animline -->
 
         <section class="video section-padding-top" id="quality">
 
@@ -1415,118 +1487,154 @@
 </section>
 <!-- /.advantage -->
 
-        <section class="animline ticker">
-
-    <div class="animline__wrap">
-
-        <div class="animline__blocks">
-
+        <section class="animline" data-component="infinite-scroll">
+    <div class="animline__wrap animline-animation--left" data-element="infinite-scroll:animation" style="--direction: normal;">
+        <div class="animline__blocks" data-element="infinite-scroll:inner">
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-soft-star"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Качество
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-depth"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
+
                 <div class="animline__block-text">
                     Высокий уровень
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-transparency"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Профессионально
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-shield"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Надежно
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-asterisk"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Под ключ
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-lightning"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Высокотехнологично
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-butterfly"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Эффективно
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-soft-star"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Качество
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-depth"></use>
+                    </svg>
+                </div>
 
+                <div class="animline__block-text">
+                    Высокий уровень
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-transparency"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Профессионально
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-shield"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Надежно
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-asterisk"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Под ключ
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-lightning"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Высокотехнологично
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-butterfly"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Эффективно
+                </div>
+            </div>
         </div>
-        <!-- /.animline__blocks -->
-
     </div>
-    <!-- /.animline__wrap -->
-
 </section>
-<!-- /.animline -->
 
         <section class="design section-padding" id="design">
 
@@ -1610,7 +1718,7 @@
 
 </section>
 <!-- /.design -->
-        <section class="section-portfolio portfolio-design" id="branding">
+        <section class="section-portfolio portfolio-design scroll-margin-top-md" id="branding">
 
     <div class="section-portfolio__wrap container-xl">
 
@@ -1823,118 +1931,154 @@
 </section>
 <!-- /.contact -->
 
-        <section class="animline ticker-right">
-
-    <div class="animline__wrap">
-
-        <div class="animline__blocks">
-
+        <section class="animline" data-component="infinite-scroll">
+    <div class="animline__wrap animline-animation--right" data-element="infinite-scroll:animation" style="--direction: normal;">
+        <div class="animline__blocks" data-element="infinite-scroll:inner">
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-soft-star"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Качество
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-depth"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
+
                 <div class="animline__block-text">
                     Высокий уровень
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-transparency"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Профессионально
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-shield"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Надежно
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-asterisk"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Под ключ
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-lightning"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Высокотехнологично
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
-
             <div class="animline__block">
                 <div class="animline__block-iocn">
                     <svg>
                         <use xlink:href="img/sprites/animline.svg#icon-butterfly"></use>
                     </svg>
                 </div>
-                <!-- /.animline__block-iocn -->
                 <div class="animline__block-text">
                     Эффективно
                 </div>
-                <!-- /.animline__block-text -->
             </div>
-            <!-- /.animline__block -->
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-soft-star"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Качество
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-depth"></use>
+                    </svg>
+                </div>
 
+                <div class="animline__block-text">
+                    Высокий уровень
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-transparency"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Профессионально
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-shield"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Надежно
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-asterisk"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Под ключ
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-lightning"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Высокотехнологично
+                </div>
+            </div>
+            <div class="animline__block">
+                <div class="animline__block-iocn">
+                    <svg>
+                        <use xlink:href="img/sprites/animline.svg#icon-butterfly"></use>
+                    </svg>
+                </div>
+                <div class="animline__block-text">
+                    Эффективно
+                </div>
+            </div>
         </div>
-        <!-- /.animline__blocks -->
-
     </div>
-    <!-- /.animline__wrap -->
-
 </section>
-<!-- /.animline -->
 
         <section class="faq section-padding-top" id="faq">
 
@@ -1956,7 +2100,7 @@
 
 </section>
 <!-- /.faq -->
-        <section class="accordion">
+        <section class="accordion" data-component="accordion">
 
     <div class="accordion__wrap container-xl">
 
@@ -2554,7 +2698,7 @@
 
                 <div class="footer-info__item">
                     <div class="footer-info__version">
-                        Версия сайта 0.0.3
+                        Версия сайта 0.0.4
                     </div>
                     <!-- /.footer-info__version -->
                 </div>
@@ -2572,8 +2716,6 @@
 </footer>
 <!-- /.footer -->
 
-    <script src="libs/gsap/ScrollTrigger.min.js"></script>
-    <script src="libs/gsap/gsap.min.js"></script>
     <script src="js/main.min.js"></script>
 
 </body>
